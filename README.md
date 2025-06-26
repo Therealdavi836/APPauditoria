@@ -14,7 +14,7 @@ El objetivo principal de **AuditoUN** es asegurar la confiabilidad de los datos 
 ---
 
 ## 📌 Alcance  
-El sistema audita la información crítica, tanto personal como académica, de los **4,884 estudiantes** matriculados en la sede Manizales durante el segundo semestre de **2023**.
+El sistema audita la información crítica, tanto personal como académica, de los **4,884 estudiantes** matriculados en la sede Manizales durante el segundo semestre de **2024**.
 
 ---
 
