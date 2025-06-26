@@ -4,7 +4,7 @@ AuditoUN es una aplicación de software diseñada para salvaguardar la integrida
 
 ## 🎯 Propósito Principal
 
-El objetivo del proyecto es implementar un sistema de vigilancia activa sobre los datos de los 4,884 estudiantes matriculados en el período 2023-2. Buscamos garantizar la confiabilidad de los registros, detectando y alertando sobre cualquier modificación no autorizada en tiempo real.
+El objetivo del proyecto es implementar un sistema de vigilancia activa sobre los datos de los 4,884 estudiantes matriculados en el período 2024-2. Buscamos garantizar la confiabilidad de los registros, detectando y alertando sobre cualquier modificación no autorizada en tiempo real.
 
 ## 🛡️ Riesgo y Estrategia de Control
 
