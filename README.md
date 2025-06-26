@@ -1,30 +1,27 @@
-# AudiUNAL: Aplicacion de Auditoría Continua
+AuditoUN: Auditoría Continua para Datos Estudiantiles
+AuditoUN es una aplicación de software diseñada para salvaguardar la integridad de la información académica en la Universidad Nacional de Colombia, sede Manizales.
 
-## Introducción
-En respuesta a la necesidad de mantener la integridad y seguridad de los datos estudiantiles, se ha desarrollado una aplicación de auditoría continua para la Universidad Nacional de Colombia, sede Manizales. Este sistema se enfoca en monitorear y proteger la información de los estudiantes matriculados en el semestre 2023-2.
+🎯 Propósito Principal
+El objetivo del proyecto es implementar un sistema de vigilancia activa sobre los datos de los 4,884 estudiantes matriculados en el período 2023-2. Buscamos garantizar la confiabilidad de los registros, detectando y alertando sobre cualquier modificación no autorizada en tiempo real.
 
-## Objetivo de la aplicación
-El objetivo principal de esta aplicación es garantizar la precisión y confiabilidad de los datos de los estudiantes, previniendo y detectando cualquier alteración no autorizada en tiempo real.
+🛡️ Riesgo y Estrategia de Control
+El principal riesgo es la alteración maliciosa o accidental de datos críticos de los estudiantes, lo que puede comprometer la validez de su historial académico y administrativo.
 
-## Datos Auditados
-La aplicación audita los registros de los 4,884 estudiantes matriculados en la sede Manizales para el período 2023-2, incluyendo información personal y académica crítica.
+Para mitigar este riesgo, AuditoUN implementa un robusto sistema de control:
 
-## Riesgo Identificado
-El riesgo principal identificado es la alteración no autorizada de los datos estudiantiles, lo que podría comprometer la integridad de los registros académicos y administrativos de la universidad.
+Monitoreo Constante: Supervisión automatizada 24/7 sobre la base de datos estudiantil.
 
-## Control Implementado
-Para mitigar este riesgo, hemos implementado un sistema de control robusto:
-- Monitoreo continuo de cambios en los registros de estudiantes.
-- Generación automática de alertas en tiempo real cuando se detecta una modificación en los datos.
-- Notificación instantánea al equipo auditor mediante correo electrónico para una respuesta rápida.
-- Visualización de alertas en la aplicación para un seguimiento eficiente.
+Detección Instantánea: Identificación de cualquier cambio en los registros.
 
-Este enfoque de auditoría continua nos permite mantener un alto nivel de seguridad y confiabilidad en los datos de los estudiantes, asegurando una respuesta inmediata ante cualquier anomalía detectada.
+Alertas Inteligentes: Notificación inmediata al equipo de auditoría vía correo electrónico.
 
-## Implementación Técnica
-La aplicación de Auditoría Continua **AudiUNAL** ha sido desarrollado utilizando las siguientes tecnologías:
-- **Laravel:** Framework de PHP para el backend, proporcionando una estructura robusta y segura para la aplicación.
-- **MySQL:** Sistema de gestión de base de datos relacional para almacenar y gestionar eficientemente los datos de los estudiantes.
-- **Bootstrap:** Framework de CSS para el diseño frontend, asegurando una interfaz de usuario responsiva y atractiva.
+Dashboard de Incidencias: Visualización centralizada de todas las alertas para un seguimiento y gestión eficientes.
 
-Esta combinación de tecnologías nos permite crear un sistema eficiente, escalable y fácil de mantener, capaz de manejar la complejidad de la auditoría continua de datos estudiantiles.
+🛠️ Arquitectura Tecnológica
+La aplicación se construyó sobre un stack tecnológico sólido y escalable:
+
+Backend: Laravel (PHP), para una lógica de negocio segura y robusta.
+
+Base de Datos: MySQL, para la gestión eficiente del gran volumen de datos.
+
+Frontend: Bootstrap, para una interfaz de usuario limpia, intuitiva y responsiva.
